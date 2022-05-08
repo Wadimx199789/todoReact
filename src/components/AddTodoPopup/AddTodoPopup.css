@@ -1,0 +1,19 @@
+.popup{
+    width:500px;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    padding:20px;
+}
+
+.popup-backdrop{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00000030;
+}
